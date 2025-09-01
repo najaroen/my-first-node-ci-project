@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build:  # can assign name maybe test, mytest, build etc.
     runs-on: ubuntu-latest
 
     strategy:
